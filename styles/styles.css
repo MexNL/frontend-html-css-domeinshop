@@ -30,6 +30,17 @@ donkergroen = #1C2B32
     color: #1C2B32;
 }
 
+main h2{
+    text-align: center;
+}
+
+main a{
+    color: lightblue;
+}
+
+h1{
+    font-size: 75px;
+}
 
 /*////////////////////////
     2. Typography
@@ -44,9 +55,7 @@ donkergroen = #1C2B32
 
 
 /*///////////// 3.1 Header /////////////*/
-h1{
-font-size: 75px;
-}
+
 
 header{
     width: 100vh;
@@ -94,15 +103,44 @@ header{
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+.customer-testimonial{
+    box-shadow: 0 0 15px grey;
+    width: 750px;
+    margin: 25px;
+    padding: 75px;
+    border-radius: 10px;
+}
 
+.customer-testimonial p{
+    font-size: smaller;
+}
 
+.customer-testimonial img{
+    height: 44px;
+}
 
 /*///////////// 3.3 Support /////////////*/
+.section-support button{
+    background-color: #1C2B32;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 60px;
+    border: none;
+}
 
-
+.section-support figcaption{
+    font-size: smaller;
+}
 
 /*///////////// 3.4 Faq /////////////*/
+.section-faq details{
 
+}
+.section-faq details:hover{
+    pointer-events: auto;
+    cursor: pointer;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
