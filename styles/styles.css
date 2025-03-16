@@ -30,22 +30,23 @@ donkergroen = #1C2B32
     color: #1C2B32;
 }
 
-main h2{
+main h2 {
     text-align: center;
+    margin-top: 25px;
 }
 
-main a{
+main a {
     color: lightblue;
 }
 
-h1{
+h1 {
     font-size: 75px;
 }
+
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
 
 
 /*////////////////////////
@@ -53,14 +54,11 @@ h1{
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
 
 
-header{
-    width: 100vh;
-    height: 50vh;
-    background-color: grey;
+header {
+    height: 75vh;
     background-image: url("../assets/images/mountains.jpg");
     background-size: inherit;
     background-repeat: no-repeat;
@@ -73,11 +71,11 @@ header{
 
 }
 
-.wrapper-header p{
+.wrapper-header p {
     font-size: 10px;
 }
 
-.wrapper-header input{
+.wrapper-header input {
     margin: -5px;
     border-radius: 30px 0 0 30px;
     height: 50px;
@@ -87,7 +85,7 @@ header{
     background-color: transparent;
 }
 
-.wrapper-header button{
+.wrapper-header button {
     border-radius: 0 30px 30px 0;
     height: 50px;
     text-align: center;
@@ -97,50 +95,106 @@ header{
     border: 2px solid #1C2B32;
 }
 
-.wrapper-header form{
+.wrapper-header form {
     margin-top: 25px;
 }
 
 
 /*///////////// 3.2 Testimonial /////////////*/
-.customer-testimonial{
+.customer-testimonial {
     box-shadow: 0 0 15px grey;
-    width: 750px;
-    margin: 25px;
-    padding: 75px;
+    width: 1000px;
     border-radius: 10px;
+    position: relative;
+    margin: 100px auto;
+    padding: 40px 75px 40px 75px;
 }
 
-.customer-testimonial p{
+.customer-testimonial p {
     font-size: smaller;
+    align-content: center;
 }
 
-.customer-testimonial img{
+.customer-name img {
     height: 44px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.customer-name span {
+    font-size: small;
+}
+
+.testimonial-quote {
+    position: absolute;
+    left: 35px;
+    top: 40px;
+    height: 30px;
 }
 
 /*///////////// 3.3 Support /////////////*/
-.section-support button{
+.section-support {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.section-support button {
     background-color: #1C2B32;
     color: white;
     height: 50px;
     width: 150px;
     border-radius: 60px;
     border: none;
+    margin-top: 30px;
 }
 
-.section-support figcaption{
+
+.section-support figcaption {
     font-size: smaller;
+    margin-top: 30px;
+}
+
+.section-support img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
 }
 
 /*///////////// 3.4 Faq /////////////*/
-.section-faq details{
-
+.section-faq details {
+    margin: 25px;
 }
-.section-faq details:hover{
-    pointer-events: auto;
+
+details:hover summary {
     cursor: pointer;
 }
 
+.section-faq {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+details p {
+    border: none;
+    background-color: #899CA0;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
+footer {
+    background-color: #1C2B32;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    font-size: smaller;
+    text-align: center;
+
+}
